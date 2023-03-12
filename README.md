@@ -43,7 +43,7 @@ pip install numpy
 # Instructions:
 
 Both the script and the Image files the user wants to decode need to be in the same folder. The resulting output of the decoding (_"Output_LSB"_ if choosen as a file
-or _"Output_LSB_string"_ if as a string message into a txt file) will be sent to that same folder after the script successfully finishes its task.
+or _"Output_LSB_string"_ if choosen as a string message into a txt file) will be sent to that same folder after the script successfully finishes its task.
 
 To run the script the user just needs to type:
 
