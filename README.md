@@ -26,19 +26,23 @@ into images, without our knowledge, and be spread without anyone noticing.
 # Setup:
 
 To run this script the user will need to install **Python3** and **pip**, more specifically **version 3.10** of it (tutorial about it can be easily found through
-Google). After that you will need to install the required Python libraries and dependencies that are used in it. The first one is **cv2** from the opencv dependency,
-and for it just type in the console:
+Google) and requires a **Unix shell**. After that you will need to install the required Python libraries and dependencies that are used in it. The first one is **cv2**
+from the opencv dependency, and for it just type in the console:
+
 
 ```s
 sudo apt-get install python3-opencv
 ```
 
+
 For the **bitarray** and **numpy** dependencies type:
+
 
 ```s
 pip install bitarray
 pip install numpy
 ```
+
 
 # Instructions:
 
@@ -47,8 +51,10 @@ or _"Output_LSB_string"_ if choosen as a string message into a txt file) will be
 
 To run the script the user just needs to type:
 
+
 ```s
 python3 LSB_Extractor.py
 ```
+
 
 In the terminal, at the folder's location, and follow all the steps in the script in order to get the decoded result.
