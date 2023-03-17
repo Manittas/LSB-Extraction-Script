@@ -4,7 +4,7 @@ Personal project of a Python script focused on extracting files and messages enc
 
 --------------------------------
 
-<h2 align="center">What Is LSB?</h2>
+<h1 align="center">What Is LSB?</h1>
 
 **LSB**, the **least significant bit** is the lowest bit in a series of numbers in binary, which is located at the far right of a string. For example, in the binary
 number 111110, the least significant bit is the far right 0. Digital data, including picture files, are computed in binary format, where the rightmost digit is
@@ -21,9 +21,9 @@ into images, without our knowledge, and be spread without anyone noticing.
 
 --------------------------------
 
-<h2 align="center">How To Use It</h2>
+<h1 align="center">How To Use It</h1>
 
-# Setup:
+### Setup:
 
 To run this script the user will need to install **Python3** and **pip**, more specifically **version 3.10** of it (tutorial about it can be easily found through
 Google) and requires a **Unix shell**. After that you will need to install the required Python libraries and dependencies that are used in it. The first one is **cv2**
@@ -44,7 +44,7 @@ pip install numpy
 ```
 
 
-# Instructions:
+### Instructions:
 
 Both the script and the Image files the user wants to decode need to be in the same folder. The resulting output of the decoding (_"Output_LSB"_ if choosen as a file
 or _"Output_LSB_string"_ if choosen as a string message into a txt file) will be sent to that same folder after the script successfully finishes its task.
